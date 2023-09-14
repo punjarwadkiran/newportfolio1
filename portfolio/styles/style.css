@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* color: aqua; */
+}
+
+header{
+    padding-top: 10px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6fefe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*
+li{
+    list-style: none;
+    cursor: pointer;
+} 
+*/  
+
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: rgb(27, 191, 232);
+    padding: 3px 10px;
+    color: rgb(14, 14, 14);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: 20;
+    width: fit-content;
+}
+
+button:hover{
+    background-color: rgb(113, 243, 21);
+    color: rgb(2, 2, 2);
+    border: 1px solid rgb(8, 8, 8);
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-weight: 5px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+   
+}
+
+.search-field{
+    display: flex;
+    gap: 25px;
+}
+input{
+    padding:4px 10px
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-left-section{
+    font-size: 2opx;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hero-right-section-btns{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-right-section img{
+    height: 200px;
+    width: 200px;
+    border-radius: 500;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+footer P{
+    font-weight: 70;
+}
+
+footer ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav img{
+    border-radius: 50%;
+    height: 70px;
+}
+/* footer ul li a i:hover{
+    
+} */
